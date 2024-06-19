@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://drive.google.com/file/d/1aSBGoDexhqJDHrDM_fY8n-h1NZRQGT3T/view?usp=sharing" width="300" height="300"><br>
+  <img src="https://imgur.com/a/1LQRkhk" width="300" height="300"><br>
   <h2><b>Querizz</b></h2>
   <i>Question and Summarize Zone</i>
 </div>
