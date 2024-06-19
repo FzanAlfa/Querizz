@@ -81,3 +81,22 @@ Querizz is a capstone assignment or final project at the rising academy in the f
         </tbody>
 </table>
 </div>
+
+### Tech stack
+- Mobile Development
+  - Figma
+  - Kotlin
+  - Android Studio
+- Cloud Computing
+  - Postman
+  - Nodejs
+  - Firebase
+  - cloudbucket
+  - cloudRun
+- Machine Learning
+  - colab
+  - python
+  - tensorflow
+  - transformers
+  - bart
+  - keybert
