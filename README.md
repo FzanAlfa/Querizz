@@ -1,4 +1,7 @@
 <div align="center">
+<h1 style="font-weight: bold;">C241-PS225</h1>
+</div>
+<div align="center">
   <a href="https://ibb.co.com/b1fC3PX"><img src="https://i.ibb.co.com/xh4BsD6/s-Wpq-Oa4-ES42-Wb-EL4n8d-Ew-A.png" alt="s-Wpq-Oa4-ES42-Wb-EL4n8d-Ew-A" border="0" width="300" height="300"></a>
   <h2><b>Querizz</b></h2>
   <i>Question and Summarize Zone</i>
@@ -10,16 +13,6 @@ Querizz is an application used to summarize a pdf/docx file. Users only need to 
 
 Querizz is a capstone assignment or final project at the rising academy in the form of an application. This application was carried out by 2 cloud computing people, 3 machine learning people and 2 Mobile Development people. Following are the names of each of our members:
 </p>
-
-<div align="center">
-  <h3>Team ID</h3>
-  <table align="center">
-    <tr>
-      <th>C241-PS225</th>
-    </tr>
-  </table>
-</div>
-<br>
 
 <div align="center">
   <h3>Team members</h3>
