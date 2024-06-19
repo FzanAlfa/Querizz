@@ -59,7 +59,6 @@ Querizz is a capstone assignment or final project at the rising academy in the f
     </tr>
   </table>
 </div>
-<br>
 
 <div align="center">
   <h3>Link Repositories</h3>
