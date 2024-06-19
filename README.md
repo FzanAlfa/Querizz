@@ -68,13 +68,13 @@ Querizz is a capstone assignment or final project at the rising academy in the f
         </thead>
         <tbody>
             <tr>
-                <td><a href="https://github.com/FzanAlfa/Querizz/tree/CC">Machine Learning</a></td>
+                <td><a href="https://github.com/FzanAlfa/Querizz/tree/CC" align="center">Machine Learning</a></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/FzanAlfa/Querizz/tree/MD">Mobile Development</a></td>
+                <td><a href="https://github.com/FzanAlfa/Querizz/tree/MD" align="center">Mobile Development</a></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/FzanAlfa/Querizz/tree/ML">Cloud Computing</a></td>
+                <td><a href="https://github.com/FzanAlfa/Querizz/tree/ML" align="center">Cloud Computing</a></td>
             </tr>
         </tbody>
 </table>
