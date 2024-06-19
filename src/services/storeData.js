@@ -9,9 +9,9 @@ const customDatabaseId = 'nosqldatabase'; // Ganti dengan database ID Anda, jika
 
 
 const db = new Firestore({
-  projectId: customProjectId, // Your custom Firestore project ID
-  keyFilename: serviceAccountPath, // Path to your service account key file
-  databaseId: customDatabaseId // Database ID, default is "(default)"
+  projectId: customProjectId,
+  keyFilename: serviceAccountPath,
+  databaseId: customDatabaseId
 });
 
 async function registerUsers(email, data) {
@@ -53,8 +53,8 @@ async function getUserByEmail(email) {
 }
 
 async function storeData(id, data, email) {
-  const predictCollection = db.collection(email); // Mengakses koleksi dengan nama dinamis.
-  return predictCollection.doc(id).set(data); // Menyimpan data ke dokumen dengan ID tertentu.
+  const predictCollection = db.collection(email);
+  return predictCollection.doc(id).set(data); 
 }
 
 async function getAllData(nameUse) {
