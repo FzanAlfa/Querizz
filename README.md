@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/135290818?s=400&u=42c995f63f686803dce04ac3629c7451f6fda8e6&v=4" width="200" height="200"><br>
-  <h4><b>Querizz</b></h4>
+  <img src="https://drive.google.com/file/d/1aSBGoDexhqJDHrDM_fY8n-h1NZRQGT3T/view?usp=sharing" width="300" height="300"><br>
+  <h2><b>Querizz</b></h2>
   <i>Question and Summarize Zone</i>
 </div>
 
