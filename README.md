@@ -50,10 +50,29 @@ Querizz is a capstone assignment or final project at the rising academy in the f
       <td>Fauzan Alfa Abhista</td>
     </tr>
     <tr>
-      <td>Cloud Computing</td>
+      <td>Cloud Computing</td> 
       <td>C119D4KY0073</td>
       <td>Muhammad Faisal Arnur</td>
     </tr>
   </table>
 </div>
+
+<table align="center">
+        <thead>
+            <tr>
+                <th>Branch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://github.com/FzanAlfa/Querizz/tree/CC">Machine Learning</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/FzanAlfa/Querizz/tree/MD">Mobile Development</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/FzanAlfa/Querizz/tree/ML">Cloud Computing</a></td>
+            </tr>
+        </tbody>
+</table>
 
