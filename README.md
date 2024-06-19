@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://imgur.com/a/1LQRkhk" width="300" height="300"><br>
+  <a href="https://ibb.co.com/b1fC3PX"><img src="https://i.ibb.co.com/xh4BsD6/s-Wpq-Oa4-ES42-Wb-EL4n8d-Ew-A.png" alt="s-Wpq-Oa4-ES42-Wb-EL4n8d-Ew-A" border="0" width="300" height="300"></a>
   <h2><b>Querizz</b></h2>
   <i>Question and Summarize Zone</i>
 </div>
