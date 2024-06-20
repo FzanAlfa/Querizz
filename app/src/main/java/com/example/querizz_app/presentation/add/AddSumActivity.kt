@@ -3,16 +3,22 @@ package com.example.querizz_app.presentation.add
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.os.Handler
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.isVisible
 import com.example.querizz_app.R
 import com.example.querizz_app.data.response.ApiResponse
 import com.example.querizz_app.databinding.ActivityAddSumBinding
 import com.example.querizz_app.presentation.result.ResultActivity
 import com.example.querizz_app.presentation.view.ViewModelFactory
 import com.example.querizz_app.util.uriToFile
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.delay
+
 class AddSumActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAddSumBinding
@@ -29,8 +35,15 @@ class AddSumActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        val handler = Handler()
+
         binding.fileUpload.setOnClickListener {
             pickFile()
+            handler.postDelayed({
+                binding.ivPreview.setImageResource(R.drawable.pdflogo)
+                binding.uploadText.visibility = View.GONE
+                binding.uploadTextSub.visibility = View.GONE
+            }, 2000)
         }
 
         binding.summarize.setOnClickListener {
@@ -51,6 +64,9 @@ class AddSumActivity : AppCompatActivity() {
 
     private fun uploadFile(uri: Uri, title: String, subtitle: String) {
         viewModel.getSession()
+        val mimeType = contentResolver.getType(uri) ?: "application/octet-stream"
+        if(mimeType == "application/pdf") {
+        }
         viewModel.uploadFile(uriToFile(uri, this), title, subtitle).observe(this) { response ->
             when(response) {
                 is ApiResponse.Loading -> {
@@ -58,10 +74,6 @@ class AddSumActivity : AppCompatActivity() {
                 }
                 is ApiResponse.Success -> {
                     val dummyResults = getString(R.string.result_summary)
-                    val mimeType = contentResolver.getType(uri) ?: "application/octet-stream"
-//                    if(mimeType == "image/jpeg" || mimeType == "image/png" || mimeType == "image/jpg") {
-//                        binding.ivPreview
-//                    }
                     val intent = Intent(this@AddSumActivity, ResultActivity::class.java).apply {
                         putExtra("SUMMARY_RESULTS", dummyResults)
                     }

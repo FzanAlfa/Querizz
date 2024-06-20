@@ -10,7 +10,6 @@ import com.example.querizz_app.data.response.ApiResponse
 import com.example.querizz_app.data.response.LoginResponse
 import com.example.querizz_app.data.response.SumResponse
 import com.example.querizz_app.data.response.UploadResponse
-import com.example.querizz_app.util.reduceFileImage
 import com.google.gson.Gson
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.firstOrNull
@@ -39,14 +38,14 @@ class Repository(
             val apiService = ApiConfig.getApiService(token)
             emit(ApiResponse.Loading)
             try {
-                val imageFile = reduceFileImage(file)
+                val imageFile = file
 
                 val titleBody = title.toRequestBody("text/plain".toMediaType())
                 val subtitleBody = subtitle.toRequestBody("text/plain".toMediaType())
-                val requestImageFile = imageFile.asRequestBody("image/jpeg".toMediaType())
+                val requestImageFile = imageFile.asRequestBody("application/pdf".toMediaType())
 
                 val multipartBody = MultipartBody.Part.createFormData(
-                    "image",
+                    "file",
                     imageFile.name,
                     requestImageFile
                 )

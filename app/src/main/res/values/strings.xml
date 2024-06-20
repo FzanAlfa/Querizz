@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Querizz-App</string>
+    <string name="app_name">Querizz</string>
     <string name="login_title">Welcome!</string>
     <string name="login_subtitle">Please login to your account</string>
     <string name="email_hint">Enter your email</string>
