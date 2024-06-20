@@ -89,3 +89,6 @@ Querizz is a capstone assignment or final project at the rising academy in the f
   - Postman, Nodejs, Firebase, cloudbucket, cloudRun  
 - Machine Learning
   - colab, python, tensorflow, transformers, bart, keybert
+
+### Tech stack
+- <p href="https://drive.google.com/drive/folders/1LO45hAfuS0fVdrSm-u5l5DZyKt7tolh9">link aplikasi</p>
