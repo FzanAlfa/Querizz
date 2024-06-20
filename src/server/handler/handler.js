@@ -35,13 +35,11 @@ async function registUsers(request, h) {
       }).code(400); // Bad Request
     }
 
-    // Enkripsi password menggunakan bcrypt
     const hashedPassword = await bcrypt.hash(password, 10);
 
     const data = { nama: name, email, password: hashedPassword };
 
     try {
-      // Panggil fungsi registerUsers dengan data yang telah divalidasi
       await registerUsers(email, data);
     } catch (error) {
       return h.response({
@@ -109,7 +107,6 @@ async function postPredictHandler(request, h) {
 
     const userData = await getUserByEmail(user.email);
 
-    // Perform predictions with both models
     const summarize = await predictFile(models.model1, file);
     const id = generateId();
     const createdAt = new Date(); // current timestamp
