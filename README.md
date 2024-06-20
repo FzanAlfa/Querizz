@@ -26,4 +26,4 @@
 
     `jalankan dengan perintah npm run start atau npm run start-dev`
 
-##### Notes : Perlu ada penyesuaiaan pada bagian inferenceService.js karna model yang kami gunakan hanya model contoh saja.
+###### Note : Perlu ada penyesuaiaan pada bagian inferenceService.js karna model yang kami gunakan hanya model contoh saja.
