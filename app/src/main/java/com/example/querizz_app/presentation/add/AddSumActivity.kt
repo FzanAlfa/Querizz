@@ -59,9 +59,9 @@ class AddSumActivity : AppCompatActivity() {
                 is ApiResponse.Success -> {
                     val dummyResults = getString(R.string.result_summary)
                     val mimeType = contentResolver.getType(uri) ?: "application/octet-stream"
-                    if(mimeType == "image/jpeg" || mimeType == "image/png" || mimeType == "image/jpg") {
-                        binding.ivPreview
-                    }
+//                    if(mimeType == "image/jpeg" || mimeType == "image/png" || mimeType == "image/jpg") {
+//                        binding.ivPreview
+//                    }
                     val intent = Intent(this@AddSumActivity, ResultActivity::class.java).apply {
                         putExtra("SUMMARY_RESULTS", dummyResults)
                     }
