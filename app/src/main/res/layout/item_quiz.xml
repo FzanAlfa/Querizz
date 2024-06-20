@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginVertical="16dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/rounded_bg_quiz"
+            android:text="@string/question_example"
+            android:fontFamily="@font/helveticaneuebold"
+            android:textColor="@color/neutral_100"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:elevation="8dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_question"
+            >
+
+            <RadioButton
+                android:id="@+id/a_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:fontFamily="@font/helveticaneueroman"
+                android:background="@drawable/answer_selector"
+                android:button="@drawable/answer_radio_button"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="16dp"
+                android:elevation="8dp"
+                />
+
+            <RadioButton
+                android:id="@+id/b_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/answer_selector"
+                android:button="@drawable/answer_radio_button"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="16dp"
+                android:layout_marginTop="8dp"
+                android:elevation="4dp"
+                android:text="B"
+                android:fontFamily="@font/helveticaneueroman"
+                />
+
+            <RadioButton
+                android:id="@+id/c_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/answer_selector"
+                android:button="@drawable/answer_radio_button"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="16dp"
+                android:layout_marginTop="8dp"
+                android:elevation="4dp"
+                android:text="C"
+                android:fontFamily="@font/helveticaneueroman"
+                />
+
+            <RadioButton
+                android:id="@+id/d_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/answer_selector"
+                android:button="@drawable/answer_radio_button"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="16dp"
+                android:layout_marginVertical="8dp"
+                android:elevation="4dp"
+                android:text="D"
+                android:fontFamily="@font/helveticaneueroman"
+                />
+
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
