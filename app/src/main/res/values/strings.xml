@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Querizz-App</string>
+    <string name="login_title">Welcome!</string>
+    <string name="login_subtitle">Please login to your account</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="create_account">Sign Up!</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="quiz_status">quiz status</string>
+    <string name="status">quiz status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">Summary</string>
+    <string name="tab_text_2">Quiz</string>
+    <string name="upload_file_title">Upload File</string>
+    <string name="upload_subtitle">Upload your file</string>
+    <string name="greeting">Hello, User</string>
+    <string name="register_subtitle">Create your querizz account</string>
+    <string name="welcome">Querizz</string>
+    <string name="welcome_title">Querizz</string>
+    <string name="welcome_subtitle">Welcome to Querizz</string>
+    <string name="or">Or</string>
+    <string name="home_greeting">What do you want to read today?</string>
+    <string name="title_summary">Summary Result</string>
+    <string name="result_summary">
+        Computer Science is a field that encompasses the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists primarily deal with software and software systems; this includes their theory, design, development, and application. Major areas of study within computer science include algorithms and data structures, computer and network design, modeling data and information processes, and artificial intelligence.\n\nComputer science also overlaps with other disciplines, such as mathematics, engineering, and linguistics, due to its focus on both the theoretical and practical aspects of computation. This interdisciplinary nature allows for the creation of a wide range of technologies and innovations, from the development of new algorithms to the creation of complex software systems. As the world becomes increasingly reliant on technology, the importance and impact of computer science continue to grow, influencing various sectors including healthcare, finance, and entertainment.
+    </string>
+    <string name="question_example">Ini Soal tentang \n materi huruf yunani kuno</string>
+    <string-array name="question">
+        <item>Which of the following is NOT a core component of a computer Central Processing Unit (CPU)?</item>
+        <item>What is the term for a set of instructions that tells a computer how to perform a specific task?</item>
+        <item>In computer networking, what does the term "IP address" stand for?</item>
+        <item>Which of the following is a type of artificial intelligence (AI) concerned with machines learning from data?</item>
+        <item>What is the binary representation of the number 10 (decimal)?</item>
+    </string-array>
+    <string-array name="a_answer">
+        <item>Monitor</item>
+        <item>Hardware</item>
+        <item>Internal Protocol</item>
+        <item>Artificial Reality (AR)</item>
+        <item>0001</item>
+    </string-array>
+    <string-array name="b_answer">
+        <item>Memory (RAM)</item>
+        <item>Software</item>
+        <item>Internet Protocol</item>
+        <item>Machine Learning</item>
+        <item>0010</item>
+    </string-array>
+    <string-array name="c_answer">
+        <item>Storage (Hard Drive)</item>
+        <item>Algorithm</item>
+        <item>Information Packet</item>
+        <item>Natural Language Processing (NLP)</item>
+        <item>0100</item>
+    </string-array>
+    <string-array name="d_answer">
+        <item>Graphics Processing Unit (GPU)</item>
+        <item>Program</item>
+        <item>Integrated Port</item>
+        <item>Robotics</item>
+        <item>1010</item>
+    </string-array>
+    <string-array name="correct_answer">
+        <item>Monitor</item>
+        <item>Program</item>
+        <item>Internet Protocol</item>
+        <item>Machine Learning</item>
+        <item>0100</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_hint">Enter your name</string>
+    <string name="create_account">Create Account</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="quiz_status">quiz status</string>
+    <string name="status">quiz status</string>
+    <string name="tab_text_1">Summary</string>
+    <string name="tab_text_2">Quiz</string>
+    <string name="upload_file_title">Upload File</string>
+    <string name="upload_subtitle">Upload your file</string>
+    <string name="greeting">Hello, User</string>
+    <string name="register_subtitle">Create your querizz account</string>
+    <string name="welcome">Querizz</string>
+    <string name="welcome_title">Querizz</string>
+    <string name="welcome_subtitle">Welcome to Querizz</string>
+    <string name="or">Or</string>
+</resources>
