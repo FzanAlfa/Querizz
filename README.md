@@ -2,7 +2,7 @@
 <h1 style="font-weight: bold;">C241-PS225</h1>
 </div>
 <div align="center">
-  <a href="https://ibb.co.com/b1fC3PX"><img src="https://i.ibb.co.com/xh4BsD6/s-Wpq-Oa4-ES42-Wb-EL4n8d-Ew-A.png" alt="s-Wpq-Oa4-ES42-Wb-EL4n8d-Ew-A" border="0" width="300" height="300"></a>
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/sJPc4k6/qtw-CS04z-QO6-Bvvg-Laao-X8-A-prev-ui.png" alt="qtw-CS04z-QO6-Bvvg-Laao-X8-A-prev-ui" border="0" width="300" height="300"></a>
   <h2><b>Querizz</b></h2>
   <i>Question and Summarize Zone</i>
 </div>
